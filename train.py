@@ -63,7 +63,7 @@ def train(epoch = 0):
         # gt_sdf = torch.from_numpy(gt_sdf_npy).float().cuda(outputs.device.index)
 
         # loss_boundary = boundary_loss(outputs, gt_sdf)
-        total_loss = 0.5 *loss + diceloss + 0.5 *loss_focal
+        total_loss =  diceloss + 0.5 *loss_focal
         # total_loss = loss + loss_focal
         # total_loss = loss
 
