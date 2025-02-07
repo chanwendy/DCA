@@ -46,9 +46,6 @@ Some of the important arguments used in [train](/train.py/) and [test](/test.py/
 | network_weights_path | path to save(d) network weights |
 | use_cuda | use GPUs for processing or CPU? |
 
-Please refer to the corresponding files for indepth argument descriptions. To cross-verify the final reported result in the paper, [test.py](/test.py/) should be run with as follows:
-`python test.py --config configs/eval-unetm-best.yaml`
-
  Both are great repositories - have a look!
 
 
